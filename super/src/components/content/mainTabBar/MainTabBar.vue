@@ -38,7 +38,7 @@ export default {
 
 <style scoped lang="less">
 .tab{
-  z-index: 2;
+  z-index: 10;
 }
 </style>
 

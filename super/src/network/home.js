@@ -6,3 +6,13 @@ export function getHomeMultiData () {
     url: '/home/multidata',
   })
 }
+
+export function getHomeGoods (type, page) {
+  return request ({
+    url: 'http://106.54.54.237:8000/api/mn/home/data',
+    params: {
+      type,
+      page
+    }
+  })
+}
